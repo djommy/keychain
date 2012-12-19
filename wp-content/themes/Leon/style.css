@@ -236,11 +236,11 @@ box-shadow:0 0 5px #000;
 /* TOP-MENU */
 	
 #botmenu{
-	margin: 0 0 0 150px;
-	/*margin:0px 0px 0px 0px;*/
+	/*margin: 0 0 0 150px; center*/
+	margin:0px 0px 0px 0px; /*left*/
 	font-size: 10px;
 	overflow:hidden;
-	/*background:url(images/menu.png);*/
+	background:url(images/menu.png);
 	text-transform:uppercase;
 	
 	}
