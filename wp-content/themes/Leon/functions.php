@@ -38,6 +38,33 @@ function fallbackmenu(){ ?>
 <?php }	
 
 
+// /*CUSTOM POST TYPES*/
+// function create_my_post_types() {
+//   register_post_type('band',
+//     array(
+//       'label' => __('Band Members'),
+//       'singular_label' => __('Band Member'),
+//       'public' => true,
+//       'hierarchical' => true, 
+//       'supports' => array(
+//         'title',
+//         'editor',
+//         'excerpt',
+//         'thumbnail',
+//         'custom-fields',
+//         'page-attributes',
+//         'categories'
+//       ),
+//       'rewrite' => array(
+//         'slug' => 'members',
+//         'with_front' => false
+//       ),
+//       'taxonomies' => array('post_tag', 'category')//add pre existing categories to custom post type.
+//     )
+//   );  
+// }
+// add_action( 'init', 'create_my_post_types' );
+
 /* CUSTOM EXCERPTS */
 	
 	
