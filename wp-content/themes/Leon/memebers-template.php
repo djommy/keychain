@@ -1,5 +1,5 @@
 <?php 
-	/*Template name: News page*/
+	/*Template name: Members page*/
  ?>
 
 <?php get_header(); ?>
@@ -40,7 +40,7 @@ if ( has_post_thumbnail() ) { ?>
 		<span class="clock"> <?php the_time('M - j - Y'); ?></span>
 </div>
 <hr class="remove-bottom remove-top">
-<div class="boxentry">
+<div class="boxentry-members">
 <?php wpe_excerpt('wpe_excerptlength_index', ''); ?>
 <div class="clear"></div>
 </div>
