@@ -402,7 +402,8 @@ box-shadow:0 0 5px #000;
 
 .btitle h2 a:link, .btitle h2 a:visited{
 	text-decoration:none;
-	color:#151515;
+	/*color:#151515;*/
+	color:#1a1a1a;
 	text-shadow:0px 1px 0px #696969;
 }
 
