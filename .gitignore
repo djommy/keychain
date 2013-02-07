@@ -1,3 +1,4 @@
 wp-config
 wp-content/uploads
 wp-content/themes/Leon/cache/
+.DS_Store
